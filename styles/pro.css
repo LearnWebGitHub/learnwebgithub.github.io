@@ -9,7 +9,7 @@ body {
 }
 
 #only-use {
-    animation: meme 7.5s step-start infinite running;
+    animation: meme 10s step-start infinite running;
     margin-top: 10%;
     width: 100%;
 }
