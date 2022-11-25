@@ -1,0 +1,28 @@
+/* background-color: #1793d1; */
+body {
+    background-color: #222;
+    background-image: url("../images/archlinux.svg");
+    background-size: 25%;
+}
+
+.main-area {
+    background-color: #999999;
+    margin: auto;
+    width: 60%;
+}
+
+#only-use-text {
+    color: #333;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#only-use {
+    margin-top: 10%;
+    opacity: 0;
+    width: 100%;
+}
+
+#only-use:hover {
+    opacity: 100%;
+}
