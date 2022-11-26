@@ -2,6 +2,34 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
 
+@keyframes ani-up {
+    0% {
+        left: -50%;
+        top: 0%;
+    }
+
+    25% {
+        left: -25%;
+        top: -50%;
+    }
+
+    50% {
+        left: 0%;
+        top: 0%;
+    }
+
+    75% {
+        left: -25%;
+        top: -50%;
+    }
+
+    100% {
+        left: -50%;
+        top: 0%;
+    }
+
+}
+
 a {
     color: #1793d1;
 }
@@ -11,42 +39,48 @@ a:hover {
 }
 
 body {
-    background-color: #222;
+    background-color: #333333;
     font-family: sans-serif, 'Noto Sans TC';
     font-size: 125%;
     margin: 0%;
-    text-align: center;
-}
-
-.main-area {
-    background-color: #ecf2f5;
-    margin: auto;
-    opacity: 100%;
-    width: 70%;
 }
 
 .main-text {
     margin: auto;
     text-align: left;
+    position: relative;
     width: 80%;
 }
 
-.top-area {
-    background-color: #333;
-    font-size: 150%;
-    height: 1.25em;
-    top: 0;
+#bg-ani {
+    background-color: #222;
+    animation: ani-up 10s linear 0ms infinite;
+    background-image: url("../images/archlinux-official-light.svg");
+    background-repeat: space;
+    background-size: 10%;
     position: fixed;
-    text-align: left;
-    width: 100%;
+    width: 150%;
 }
 
-#bg {
-    background-color: #1793d1;
+#bg-ani:hover {
+    opacity: 5%;
+}
+
+#bg-ani:active {
+    opacity: 0%;
 }
 
 #home {
     margin-left: 0.5%;
+}
+
+#main-bg {
+    background-color: #ecf2f5;
+    margin: auto;
+    opacity: 100%;
+    position: relative;
+    text-align: center;
+    width: 75%;
 }
 
 #meme {
@@ -54,5 +88,20 @@ body {
     display: block;
     margin: auto;
     opacity: 100%;
-    width: 80%;
+    width: 60%;
+}
+
+#top-area {
+    background-color: #333;
+    font-size: 150%;
+    height: 1.25em;
+    top: 0;
+    position: fixed;
+    text-align: left;
+    width: 100%;
+    z-index: 100;
+}
+
+#top-cache {
+    margin-top: 0%;
 }
