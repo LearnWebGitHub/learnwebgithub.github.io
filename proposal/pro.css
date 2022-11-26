@@ -9,7 +9,7 @@
     }
 
     25% {
-        left: -25%;
+        right: -25%;
         top: -50%;
     }
 
@@ -27,7 +27,6 @@
         left: -50%;
         top: 0%;
     }
-
 }
 
 a {
@@ -53,16 +52,12 @@ body {
 }
 
 #bg-ani {
-    animation: arch-ani 10s linear 0ms infinite;
+    animation: arch-ani 15s ease infinite;
     background-image: url("../images/archlinux-official-light.svg");
     background-repeat: space;
-    background-size: 10%;
+    background-size: 8%;
     position: fixed;
     width: 150%;
-}
-
-#bg-ani:hover {
-    opacity: 5%;
 }
 
 #home {
@@ -75,7 +70,7 @@ body {
     opacity: 100%;
     position: relative;
     text-align: center;
-    width: 75%;
+    width: 70%;
 }
 
 #meme {
