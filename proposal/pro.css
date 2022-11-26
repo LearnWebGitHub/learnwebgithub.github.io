@@ -65,10 +65,6 @@ body {
     opacity: 5%;
 }
 
-#bg-ani:active {
-    opacity: 0%;
-}
-
 #home {
     margin-left: 0.5%;
 }
