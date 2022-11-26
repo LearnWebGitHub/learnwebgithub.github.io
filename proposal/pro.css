@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
 
-@keyframes ani-up {
+@keyframes arch-ani {
     0% {
         left: -50%;
         top: 0%;
@@ -10,7 +10,7 @@
 
     25% {
         left: -25%;
-        top: -75%;
+        top: -50%;
     }
 
     50% {
@@ -20,7 +20,7 @@
 
     75% {
         left: -25%;
-        top: -75%;
+        top: -50%;
     }
 
     100% {
@@ -53,7 +53,7 @@ body {
 }
 
 #bg-ani {
-    animation: ani-up 10s linear 0ms infinite;
+    animation: arch-ani 10s linear 0ms infinite;
     background-image: url("../images/archlinux-official-light.svg");
     background-repeat: space;
     background-size: 10%;
