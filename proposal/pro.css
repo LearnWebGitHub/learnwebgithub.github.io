@@ -4,28 +4,18 @@
 
 @keyframes arch-ani {
     0% {
-        left: -25%;
-        top: -0%;
-    }
-    
-    25% {
-        left: -50%;
-        top: -50%;
-    }
-    
-    50% {
-        left: -25%;
-        top: 0%;
+        left: 0%;
+        top: -25%;
     }
 
-    75% {
-        left: 0%;
+    50% {
+        left: -50%;
         top: -50%;
     }
 
     100% {
-        left: -25%;
-        top: 0%;
+        left: 0%;
+        top: -25%;
     }
 }
 
@@ -53,24 +43,27 @@ body {
 
 #bg-ani {
     animation: arch-ani 15s ease infinite;
-    background-image: url("../images/archlinux-official-light.svg");
-    background-repeat: space;
-    background-size: 8%;
+    background-image: url("../images/gritty.png");
+    background-size: 20%;
+    text-align: center;
     position: fixed;
-    width: 150%;
 }
 
 #home {
-    margin-left: 0.5%;
+    margin-left: 1%;
 }
 
 #main-bg {
     background-color: #ecf2f5;
     margin: auto;
-    opacity: 100%;
+    opacity: 10%;
     position: relative;
     text-align: center;
     width: 70%;
+}
+
+#main-bg:hover {
+    opacity: 100%;
 }
 
 #meme {
@@ -84,8 +77,6 @@ body {
 #top-area {
     background-color: #333;
     font-size: 150%;
-    height: 1.25em;
-    top: 0;
     position: fixed;
     text-align: left;
     width: 100%;
