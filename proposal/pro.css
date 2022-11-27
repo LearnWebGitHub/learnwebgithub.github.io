@@ -80,14 +80,10 @@ h1 {
 #main-bg {
     background-color: #ecf2f5;
     margin: auto;
-    opacity: 0%;
+    opacity: 100%;
     position: sticky;
     text-align: center;
     width: 70%;
-}
-
-#main-bg:hover {
-    opacity: 100%;
 }
 
 #meme {
