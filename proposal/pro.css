@@ -52,6 +52,10 @@ body {
     z-index: 100;
 }
 
+.top-link {
+    text-decoration: none;
+}
+
 #bg-ani {
     animation: arch-ani 5s linear infinite;
     background-image: url("../images/archbtw.png");
@@ -62,10 +66,6 @@ body {
     width: 150%;
 }
 
-#bg-ani:hover {
-    z-index: 99;
-}
-
 #home {
     margin-left: 1%;
 }
@@ -73,10 +73,14 @@ body {
 #main-bg {
     background-color: #ecf2f5;
     margin: auto;
-    opacity: 100%;
+    opacity: 0%;
     position: relative;
     text-align: center;
     width: 70%;
+}
+
+#main-bg:hover {
+    opacity: 100%;
 }
 
 #meme {
@@ -93,7 +97,7 @@ body {
     position: fixed;
     text-align: left;
     width: 100%;
-    z-index: 100;
+    z-index: 101;
 }
 
 #top-cache {
