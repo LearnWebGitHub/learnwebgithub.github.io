@@ -44,16 +44,23 @@ body {
     margin: 0%;
 }
 
+h1 {
+    margin: 0%;
+}
+
 .main-text {
     margin: auto;
     text-align: left;
-    position: relative;
     width: 80%;
     z-index: 100;
 }
 
 .top-link {
     text-decoration: none;
+}
+
+.top-link:hover {
+    font-size: 110%;
 }
 
 #bg-ani {
@@ -74,7 +81,7 @@ body {
     background-color: #ecf2f5;
     margin: auto;
     opacity: 0%;
-    position: relative;
+    position: sticky;
     text-align: center;
     width: 70%;
 }
@@ -94,12 +101,9 @@ body {
 #top-area {
     background-color: #333;
     font-size: 150%;
-    position: fixed;
+    position: sticky;
     text-align: left;
+    top: 0%;
     width: 100%;
     z-index: 101;
-}
-
-#top-cache {
-    margin-top: 0%;
 }
