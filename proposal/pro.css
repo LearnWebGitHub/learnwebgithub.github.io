@@ -4,27 +4,27 @@
 
 @keyframes arch-ani {
     0% {
-        left: -20%;
+        left: 0%;
         top: 0%;
     }
 
     25% {
-        left: -30%;
-        top: -30%;
+        left: -12.5%;
+        top: -15%;
     }
 
     50% {
-        left: -20%;
+        left: 0%;
         top: 0%;
     }
 
     75% {
-        left: -10%;
-        top: -30%;
+        left: 12.5%;
+        top: -15%;
     }
 
     100% {
-        left: -20%;
+        left: 0%;
         top: 0%;
     }
 }
@@ -67,10 +67,10 @@ h1 {
     animation: arch-ani 5s linear infinite;
     background-image: url("../images/archbtw.png");
     background-repeat: repeat;
-    background-size: 20%;
-    text-align: center;
+    background-size: 10%;
+    margin-left: -50%;
     position: fixed;
-    width: 150%;
+    width: 200%;
 }
 
 #home {
