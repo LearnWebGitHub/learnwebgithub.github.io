@@ -9,8 +9,8 @@
     }
 
     25% {
-        left: -12.5%;
-        top: -15%;
+        left: -15%;
+        top: -20%;
     }
 
     50% {
@@ -19,8 +19,8 @@
     }
 
     75% {
-        left: 12.5%;
-        top: -15%;
+        left: 15%;
+        top: -20%;
     }
 
     100% {
@@ -51,7 +51,7 @@ h1 {
 .main-text {
     margin: auto;
     text-align: left;
-    width: 80%;
+    width: 60%;
     z-index: 100;
 }
 
@@ -60,7 +60,7 @@ h1 {
 }
 
 .top-link:hover {
-    font-size: 110%;
+    font-size: 125%;
 }
 
 #bg-ani {
@@ -91,11 +91,11 @@ h1 {
     display: block;
     margin: auto;
     opacity: 100%;
-    width: 60%;
+    width: 100%;
 }
 
 #top-area {
-    background-color: #333;
+    background-color: #333333;
     font-size: 150%;
     position: sticky;
     text-align: left;
