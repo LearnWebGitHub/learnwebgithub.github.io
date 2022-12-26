@@ -1,0 +1,68 @@
+<!-- p1-inux.html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Linux 簡介</title>
+    <link href="../styles/style.css" rel="stylesheet" type="text/css">
+    <link href="../styles/p1-linux.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header id="top-area">
+        <a class="top-link" id="home" href="../index.html">Home</a>
+    </header>
+    <div id="main-bg">
+        <div class="main-text">
+            <h1>關於Linux和GNU</h1>
+        </div>
+        <p id="warning" onclick="this.style.visibility='hidden'">沒什麼，我就是想說這頁比較無聊 :)</p>
+        <button id="warni ng-button" onclick="warning.style.visibility='visible'">哈囉?</button>
+        <div class="main-text">
+            <h2>Linux起源</h2>
+            <p>
+                1991年，還在就讀大學的Linus Torvalds對開發作業系統產生興趣，加上當時他對學校用的MINIX核心只能用於教育很不滿意，決定自己寫一個作業系統核心
+            </p>
+            <p>
+                早期的Linux核心只是他的個人項目，使用C語言進行開發。他先是讓MINIX的軟體能在Linux上運行，隨後因為GNU軟體的原始碼可以自由使用而改變方向。項目公布時，Bash和GCC已經被Linus成功移植到Linux上
+            </p>
+            <p>
+                後來隨著項目的發展，Linux的授權被改為GNU GPL協議，可以用作商業用途讓更多開發者為項目付出心力
+            </p>
+            <p>
+
+            <h2>GNU軟體</h2>
+            <p>
+                早在Linux誕生前的1983年，反對軟體專利的Richard Stallman發起了GNU計畫，希望打造出一套名為GNU、完整且開放原始碼的作業系統
+            </p>
+            <p>
+                然而儘管如GCC、Bash、Emacs等軟體都已成熟發展，重要的核心卻陷入開發困境。以Mach微核心為基礎開發的Hurd核心過於複雜，多年以來仍無法達到應有的水準，GNU
+                Hurd計畫的開發人員也寥寥可數。因此除少數實驗性的項目外，現今的GNU軟體大多作為Linux發行版的一部分發布
+            </p>
+            <p>
+                Stallman認為Linux是因為GNU才能發展如此龐大，許多Linux發行版也稱其為GNU/Linux。但許多Linux愛好者強調Linux並不屬於GNU計畫的一部分，也有人認為它應該被稱為Linux/GNU。儘管爭議不斷，許多如Red
+                Hat Linux、Slackware Linux、Arch Linux等發行版名稱相當被使用者喜愛
+            </p>
+
+            <h2>Linux的影響</h2>
+            <p>
+                儘管Linux一開始是針對早期的x86(i386)為目標進行開發，現今它也被移植到如ARM架構的各個平台，如Google的Android作業系統就是基於Linux開發
+            </p>
+            <p>
+                在伺服器方面，至少40%(許多媒體推測是70%)的伺服器採用Linux為核心，前500名的超級電腦更是自2017起就全部是基於Linux
+            </p>
+            <p>
+                如今也有許多軟體開發者偏好使用Linux，除了Linux發行版本身的高度客製化與套件管理器的便利性外，Linux開發者社群也發展相當龐大且完整
+            </p>
+
+            <h3>Linus Torvalds於TED的對談<a href="https://youtu.be/o8NPllzkFhE">(原網址)</a>:</h3>
+            <iframe src="https://www.youtube.com/embed/o8NPllzkFhE" width="100%" height="540px" frameborder="0"
+                allowfullscreen></iframe>
+            <br class="buffer">
+        </div>
+    </div>
+</body>
+
+</html>

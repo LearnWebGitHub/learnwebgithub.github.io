@@ -1,0 +1,23 @@
+/* p4-I-use-arch.css */
+
+.blue {
+    color: #1793d1;
+}
+
+.only-use {
+    background-color: #999999;
+    display: block;
+    padding: 1%;
+    text-align: center;
+}
+
+#install {
+    float: left;
+    margin-right: 1%;
+}
+
+#why {
+    color: red;
+    font-size: 50%;
+    visibility: collapse;
+}

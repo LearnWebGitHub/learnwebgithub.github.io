@@ -1,0 +1,45 @@
+/* p2-linux-distro.css */
+
+@keyframes linux {
+    0% {
+        width: 50%;
+    }
+
+    50% {
+        width: 75%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+h2 {
+    color: black;
+    display: inline;
+}
+
+h3 {
+    color: #333333;
+    padding-top: 2.5%;
+}
+
+img {
+    float: left;
+    height: 100px;
+    padding-right: 1%;
+}
+
+img:hover {
+    animation: linux 1s infinite;
+    height: 50%;
+    width: 50%;
+}
+
+.split {
+    background-color: #1793d1;
+    color: #1793d1;
+    display: block;
+    font-size: 5px;
+    margin: 3%;
+}

@@ -1,0 +1,109 @@
+<!-- p3-archlinux.html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Arch Linux 介紹</title>
+    <link href="../styles/style.css" rel="stylesheet" type="text/css">
+    <link href="../styles/p3-archlinux.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header id="top-area">
+        <a class="top-link" id="home" href="../index.html">Home</a>
+    </header>
+    <div id="main-bg">
+        <h1 class="best" onmouseover="why.style.visibility='visible'" onmouseleave="why.style.visibility='collapse'">
+            Arch is the best
+            <a href="#the-best" id="why">?</a>
+        </h1>
+        <div class="main-text">
+            <h2>Arch Linux是什麼?</h2>
+            <p>
+                根據ArchWiki，Arch Linux是具備輕量、簡潔、滾動式更新、社群活躍...等眾多優點的發行版，因此<br>
+            </p>
+        </div>
+        <p class="best" onmouseover="again.style.visibility='visible'">
+            Arch is the best
+        </p>
+        <br>
+        <p id="again" onclick="this.style.visibility='collapse'">
+            <span class="gray">Understand?<br></span>
+            Arch is the best<br>
+            <img src="../images/archlinux-official-light.svg">
+        </p>
+        <div class="main-text">
+            <h2>pacman</h2>
+            <p>
+                相對於許多通過發布版本更新的Linux發行版，Arch Linux採取滾動式更新。軟體更新不會被限制在特定的版本號
+            </p>
+            <p>
+                Arch Linux的套件管理器pacman提供的軟體套件大多都是最新穩定版，大多情況下用戶不用額外安裝鏡像源，就能以相對快的方式獲得更新
+            </p>
+            <p>
+                而在Windows平台管理MinGW等軟體、提供GNU開發工具用的<a>MSYS2</a>也採用pacman作為套件管理器
+            </p>
+            <h2>AUR</h2>
+            <p>
+                除了官方庫，Arch Linux還提供了名為"Arch User Repository"(AUR)的社群倉庫。軟體維護者將安裝包上傳至AUR，使用者再透過Git下載並部屬到裝置上。
+            </p>
+            <p>
+                有些軟體需由原始碼編譯，亦或是從其他發行版的安裝檔(如.deb檔等)重新打包。相對其他同是非Debian系的發行版(如以RPM為主的SUSE或Fedora)，AUR上的軟體通常能在.deb更新後數小時內就被維護者發布。<br>
+                對於一些帶商業性質的軟體如: Spotify、Visual Studio Code、Google Chrome等，AUR給了維護者和用戶更大的彈性去更新和下載這些軟體
+            </p>
+            <p>
+                作為Linux核心和Git創始人的Linus Torvalds甚至這樣評價AUR:
+            </p><em class="gray-ground">"I've met people who thought git is a front-end to GitHub.<br>
+                They were wrong, git is a front-end to the AUR."</em>
+            <h2>ArchWiki</h2>
+            <p>
+                ArchWiki非常注重實用性，編輯遵循三個原則:
+                <ul class="gray-ground">
+                    <li>Always properly use the edit summary</li>
+                    <li>Do not make complex edits at once</li>
+                    <li>Announce article rewrites in a talk page</li>
+                </ul>
+                ArchWiki提供了從安裝(安裝腳本出現前這算是很勸退人的部份)、部署環境到日常使用的各種實用指南，使用者不用再花大量時間在Google搜尋上。在Stack Overflow和Reddit上，許多用戶都表示Arch最強大的不是AUR，而是ArchWiki
+            </p>
+            <h2 id="the-best"><br>Arch is the best</h2>
+            <p>
+                根據官方ArchWiki，為了讓大家知道Arch是最棒的，因此開啟了"Arch is the best"<span class="line">(根本就是Hello, World!)</span>這項活動<br>
+                像是:<br>
+                <code><pre>
+// C++23 (new style)
+import std;
+int main()
+{
+    std::println("Arch is the best!");
+}
+
+// Go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Arch is the best!")
+}
+
+// Rust
+fn main() {
+    println!("Arch is the best!");
+}
+                </pre></code>
+                更多: (ArchWiki，"Arch is the best"，<a href="https://wiki.archlinux.org/title/arch_is_the_best">網址</a>)
+                <iframe id="wiki-best" src="https://wiki.archlinux.org/title/arch_is_the_best" width="100%"
+                    height="540px"></iframe>
+            </p>
+            <h2>Arch使用體驗?</h2>
+            <p>
+                捧Arch捧完了，下一頁是實際體驗Arch的體驗和感受，<a href="./p4-I-use-arch.html" class="line">充滿廢話的現實面</a>
+            </p>
+            <br class="buffer">
+        </div>
+    </div>
+</body>
+
+</html>

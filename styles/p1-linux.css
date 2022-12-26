@@ -1,0 +1,10 @@
+/* p1-linux.css */
+
+#warning {
+    color: red;
+    visibility: hidden;
+}
+
+#warning-button {
+    text-align: center;
+}
