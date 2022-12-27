@@ -1,0 +1,12 @@
+/* home.css */
+
+h1 {
+    font-size: 300%;
+}
+
+#meme {
+    background-color: #999999;
+    display: block;
+    margin: auto;
+    opacity: 100%;
+}

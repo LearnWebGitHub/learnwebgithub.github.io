@@ -12,8 +12,19 @@
 
 <body>
     <header id="top-area">
-        <a class="top-link" id="home" href="../index.html">Home</a>
+        <a class="top-link" id="test" href="../index.html">test</a>
     </header>
+    <div id="pages">
+        <ul>
+            <li><a href="../index.html">Home</a></li><br>
+            <li><a href="../pages/p1-linux.html">Linux 簡介</a></li><br>
+            <li><a href="../pages/p2-linux-distro.html">Linux 發行版</a></li><br>
+            <li><a href="../pages/p3-archlinux.html">Arch is the best</a></li><br>
+            <li><a href="../pages/p4-I-use-arch.html">BTW, I use Arch</a></li><br>
+            <li><a href="../pages/p5-foss.html">開源軟體</a></li><br>
+            <li><a href="../pages/p6-else.html">其他</a></li><br>
+        </ul>
+    </div>
     <div id="main-bg">
         <h1 class="best" onmouseover="why.style.visibility='visible'" onmouseleave="why.style.visibility='collapse'">
             Arch is the best
@@ -25,15 +36,17 @@
                 根據ArchWiki，Arch Linux是具備輕量、簡潔、滾動式更新、社群活躍...等眾多優點的發行版，因此<br>
             </p>
         </div>
-        <p class="best" onmouseover="again.style.visibility='visible'">
-            Arch is the best
-        </p>
-        <br>
-        <p id="again" onclick="this.style.visibility='collapse'">
-            <span class="gray">Understand?<br></span>
-            Arch is the best<br>
-            <img src="../images/archlinux-official-light.svg">
-        </p>
+        <div id="best">
+            <p class="best" onmouseover="again.style.visibility='visible'">
+                Arch is the best
+            </p>
+            <br>
+            <p id="again" onclick="this.style.visibility='collapse'">
+                <span class="gray">Understand?<br></span>
+                Arch is the best<br>
+                <img src="../images/archlinux-official-light.svg">
+            </p>
+        </div>
         <div class="main-text">
             <h2>pacman</h2>
             <p>
@@ -60,16 +73,18 @@
             <h2>ArchWiki</h2>
             <p>
                 ArchWiki非常注重實用性，編輯遵循三個原則:
-                <ul class="gray-ground">
-                    <li>Always properly use the edit summary</li>
-                    <li>Do not make complex edits at once</li>
-                    <li>Announce article rewrites in a talk page</li>
-                </ul>
-                ArchWiki提供了從安裝(安裝腳本出現前這算是很勸退人的部份)、部署環境到日常使用的各種實用指南，使用者不用再花大量時間在Google搜尋上。在Stack Overflow和Reddit上，許多用戶都表示Arch最強大的不是AUR，而是ArchWiki
+            <ul class="gray-ground">
+                <li>Always properly use the edit summary</li>
+                <li>Do not make complex edits at once</li>
+                <li>Announce article rewrites in a talk page</li>
+            </ul>
+            ArchWiki提供了從安裝(安裝腳本出現前這算是很勸退人的部份)、部署環境到日常使用的各種實用指南，使用者不用再花大量時間在Google搜尋上。在Stack
+            Overflow和Reddit上，許多用戶都表示Arch最強大的不是AUR，而是ArchWiki
             </p>
             <h2 id="the-best"><br>Arch is the best</h2>
             <p>
-                根據官方ArchWiki，為了讓大家知道Arch是最棒的，因此開啟了"Arch is the best"<span class="line">(根本就是Hello, World!)</span>這項活動<br>
+                根據官方ArchWiki，為了讓大家知道Arch是最棒的，因此開啟了"Arch is the best"<span class="line">(根本就是Hello,
+                    World!)</span>這項活動<br>
                 像是:<br>
                 <code><pre>
 // C++23 (new style)

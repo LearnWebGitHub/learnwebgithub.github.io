@@ -1,5 +1,11 @@
 /* p3-archlinux */
 
+@keyframes best {
+    50% {
+        opacity: 90%;
+    }
+}
+
 .best {
     color: #1793d1;
 }
@@ -31,6 +37,10 @@
     top: 0%;
     visibility: collapse;
     z-index: 999;
+}
+
+#best {
+    animation: best 1s infinite;
 }
 
 #why {

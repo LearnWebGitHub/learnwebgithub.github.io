@@ -10,27 +10,26 @@
 @keyframes arch-ani {
     0% {
         left: 0%;
-        top: 0%;
+        top: 0%
     }
-
+    
     25% {
         left: -15%;
-        top: -30%;
+        top: -7.5%
     }
-
+    
     50% {
-        left: 0%;
-        top: 0%;
+        top: 0%
     }
-
+    
     75% {
         left: 15%;
-        top: -30%;
+        top: -7.5%
     }
-
+    
     100% {
         left: 0%;
-        top: 0%;
+        top: 0%
     }
 }
 
@@ -43,7 +42,7 @@ a:hover {
 }
 
 body {
-    background-color: #333333;
+    background-color: #000000;
     font-family: sans-serif, 'Noto Sans TC';
     font-size: 125%;
     margin: 0%;
@@ -89,17 +88,13 @@ h2 {
 }
 
 #bg-ani {
-    animation: arch-ani 5s linear infinite;
+    animation: arch-ani 7.5s linear infinite;
     background-image: url("../images/archbtw.png");
     background-repeat: repeat;
     background-size: 10%;
     margin-left: -50%;
     position: fixed;
     width: 200%;
-}
-
-#home {
-    margin-left: 1%;
 }
 
 #main-bg {
@@ -111,24 +106,26 @@ h2 {
     width: 70%;
 }
 
-#meme {
-    background-color: #999999;
-    display: block;
-    margin: auto;
+#pages {
+    background-color: #333333;
+    opacity: 90%;
+    padding-left: 1%;
+    padding-right: 3%;
+    position: fixed;
+    top: 15%;
+    width: 10%;
+}
+
+#pages:hover {
     opacity: 100%;
-    width: 100%;
 }
 
 #top-area {
     background-color: #222;
-    font-size: 150%;
+    font-size: 200%;
     position: sticky;
     text-align: left;
     top: 0%;
     width: 100%;
     z-index: 101;
-}
-
-#testing {
-    color: red;
 }
