@@ -1,0 +1,17 @@
+/* p5-foss.css */
+
+#meme {
+    background-color: #999999;
+    display: block;
+    margin: auto;
+    opacity: 100%;
+}
+
+#oh-no {
+    font-size: 150%;
+    opacity: 0;
+}
+
+#oh-no:hover {
+    opacity: 100%;
+}
