@@ -79,14 +79,6 @@ h2 {
     z-index: 100;
 }
 
-.top-link {
-    text-decoration: none;
-}
-
-.top-link:hover {
-    font-size: 125%;
-}
-
 #bg-ani {
     animation: arch-ani 7.5s linear infinite;
     background-image: url("../images/archbtw.png");

@@ -1,5 +1,19 @@
 /* home.css */
 
+@keyframes test {
+    0% {
+        margin-left: 0%;
+    }
+
+    50% {
+        margin-left: 25%;
+    }
+
+    100% {
+        margin-left: 100%;
+    }
+}
+
 h1 {
     font-size: 300%;
 }
@@ -9,4 +23,17 @@ h1 {
     display: block;
     margin: auto;
     opacity: 100%;
+}
+
+
+#test {
+    background-color: black;
+    color: black;
+    font-size: 100%;
+    margin-left: 1%;
+}
+
+#test:hover {
+    animation: test 3s;
+    color: #999999;
 }
