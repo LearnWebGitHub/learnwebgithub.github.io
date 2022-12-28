@@ -20,11 +20,11 @@ h1 {
 
 .prodiv {
     position: fixed;
-    z-index: 9999;
+    z-index: 999;
     top: 200px;
     right: 10px;
     width: 20px;
-    height: 120px;
+    height: 150px;
     box-shadow: 3px 4px 0px 0px #1564ad;
     background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
     border-radius: 5px;
